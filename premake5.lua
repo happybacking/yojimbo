@@ -6,7 +6,7 @@ libs = { "sodium", "mbedtls", "mbedx509", "mbedcrypto" }
 solution "Yojimbo"
     kind "ConsoleApp"
     language "C++"
-    platforms { "Win32" }
+    platforms { "x64" }
     configurations { "Debug", "Release" }
     if os.istarget "windows" then
         includedirs { ".", "./windows", "netcode.io", "reliable.io" }
