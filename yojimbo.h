@@ -95,7 +95,7 @@
 #endif
 
 #if !defined( YOJIMBO_WITH_MBEDTLS )
-#define YOJIMBO_WITH_MBEDTLS 1
+#define YOJIMBO_WITH_MBEDTLS 0
 #endif // #if !defined( YOJIMBO_WITH_MBEDTLS )
 
 #ifdef _MSC_VER
